@@ -52,6 +52,8 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --name "Excel_a_CSV_Converter" excel_a_csv_por_hojas.py
 ```
 
+> **📝 Nota importante**: Si descargas el código fuente desde GitHub, no incluye el archivo `.exe`. Puedes descargarlo desde las [Releases](../../releases) o compilarlo tú mismo usando PyInstaller.
+
 ## ✨ Características
 
 - **Interfaz gráfica amigable**: Usa ventanas de Windows para seleccionar archivos
