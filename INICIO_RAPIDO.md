@@ -24,8 +24,7 @@ python excel_a_csv_por_hojas.py
 ## Scripts Incluidos
 
 - `Convertir_Excel_a_CSV.bat` - Script simple que ejecuta automáticamente
-- `ejecutar.bat` - Script con opciones avanzadas  
-- `limpiar_para_git.bat` - Limpia archivos antes de hacer commits
+- `ejecutar.bat` - Script con opciones avanzadas
 
 ## ¿Problemas?
 

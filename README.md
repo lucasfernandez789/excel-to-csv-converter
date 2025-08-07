@@ -18,7 +18,7 @@ Una herramienta simple y eficiente que convierte archivos de Excel (.xlsx, .xls)
 ## 📁 Estructura del Proyecto
 
 - `excel_a_csv_por_hojas.py` - Código fuente principal
-- `Excel_a_CSV_Converter.exe` - Ejecutable compilado (en carpeta `dist/`)  
+- `Excel_a_CSV_Converter.exe` - Ejecutable compilado (en releases)  
 - `Convertir_Excel_a_CSV.bat` - Script de ejecución simple
 - `ejecutar.bat` - Script con múltiples opciones
 - `requirements.txt` - Dependencias de Python

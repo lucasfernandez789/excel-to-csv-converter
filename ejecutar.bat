@@ -26,11 +26,15 @@ if exist "%~dp0dist\Excel_a_CSV_Converter.exe" (
         "%~dp0dist\Excel_a_CSV_Converter.exe"
     )
 ) else (
-    echo NOTA: No se encontro el archivo ejecutable.
+    echo DISPONIBLE SOLO:
+    echo 1. Ejecutar version Python ^(requiere Python instalado^)
     echo.
+    echo NOTA: No se encontro el archivo ejecutable.
     echo Para obtener el ejecutable:
-    echo 1. Descarga la ultima release desde: https://github.com/lucasfernandez789/excel-to-csv-converter/releases
-    echo 2. O compila tu propio ejecutable con: pyinstaller --onefile --windowed --name "Excel_a_CSV_Converter" excel_a_csv_por_hojas.py
+    echo - Descarga desde: https://github.com/lucasfernandez789/excel-to-csv-converter/releases
+    echo - O compila con: pyinstaller --onefile --windowed --name "Excel_a_CSV_Converter" excel_a_csv_por_hojas.py
+    echo.
+    set /p opcion=Presiona ENTER para ejecutar con Python o Ctrl+C para salir: 
     echo.
     echo Ejecutando version Python...
     python "%~dp0excel_a_csv_por_hojas.py"
