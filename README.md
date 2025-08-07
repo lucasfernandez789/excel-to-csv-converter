@@ -33,8 +33,8 @@ Una herramienta simple y eficiente que convierte archivos de Excel (.xlsx, .xls)
 ### Opción 2: Ejecutar desde el Código Fuente
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/excel-a-csv-converter.git
-cd excel-a-csv-converter
+git clone https://github.com/lucasfernandez789/excel-to-csv-converter.git
+cd excel-to-csv-converter
 
 # Instalar dependencias
 pip install -r requirements.txt
